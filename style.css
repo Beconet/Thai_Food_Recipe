@@ -1,29 +1,5 @@
-img{
-    padding: 30px;
-    width: 30%;
-    
-}
-.head{
-    text-align: auto;
-    padding: 20px;
-}
-.top{
-    display: inline;
-    flex:content;
-}
-.item{
-    margin: 50px;
-    border: solid 2px grey;
-    flex:1;
-}
-
-.contrainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-a{   
-        margin: 10px;
-        padding: 50px;
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
 }
