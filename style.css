@@ -11,21 +11,29 @@
         background-color: red;
     }
     .head{
+        background-color:green;
+        padding: 10px;
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid green;
     }
     .logo{
         text-align: center;
-    }
-    .head{
-        text-align: center;
+        
 
-       
     }
     .top{
-        border: 60px;
-
-
+        display: inline;
+        border: 1px solid green;
     }
+    .contrain{
+        display: none;
+        border: 1px solid green;
+    }
+    
+
     ul{
         list-style-type: none;
     }
@@ -44,15 +52,24 @@
 /* website on computer*/
 
 .head{
-    display: flex;
-   
-}
-.top{
-    border: 60px;
-    display: inline;
-    flex-direction: row;
+    background-color:gainsboro;
+    padding: 10px;
+
 
 }
+.top{
+    display: inline;
+    font-size: 18px;
+    padding: 20px;
+
+}
+.contrain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
 ul{
     list-style-type: none;
 }
