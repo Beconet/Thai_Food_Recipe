@@ -3,7 +3,11 @@ const search = document.querySelector("#search")
 const magaZine = document.querySelector("#magazine")
 const newLetter = document.querySelector("#newletter")
 const log_in = document.querySelector("#log_in")
+const logo = document.querySelector("#logo")
 
+logo.addEventListener('click',()=>{
+    console.log("you click logo!!!");
+});
 search.addEventListener('click',()=>{
     console.log("you click search!!!");
 });
