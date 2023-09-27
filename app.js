@@ -5,6 +5,27 @@ const newLetter = document.querySelector("#newletter")
 const log_in = document.querySelector("#log_in")
 const logo = document.querySelector("#logo")
 
+
+const dropdown = document.getElementById("dropDown_list")
+const btnDropDown = document.getElementById("btn_dropdown_list")
+const boxBackground = document.getElementById("box_background")
+let turn = false;
+btnDropDown.addEventListener('click',()=>{
+    if (turn == true){
+        dropdown.style.display = "none";
+        boxBackground.style.backgroundColor = "rgba(0, 0, 0, 0.0)";
+        boxBackground.style.pointerEvents = "";
+        
+        turn = false;
+    }else{
+        dropdown.style.display = "block";
+        boxBackground.style.backgroundColor = "rgba(0, 0, 0, 0.534)";
+        boxBackground.style.pointerEvents = "none";
+        
+        turn = true;
+    }
+   
+});
 logo.addEventListener('click',()=>{
     console.log("you click logo!!!");
 });
