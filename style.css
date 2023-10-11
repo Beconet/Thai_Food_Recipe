@@ -136,3 +136,37 @@ button{
 
 
 
+.item-box{
+    border: 2px solid;
+    padding: 80px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin: 20px;
+}
+.photo-box{
+    display: flex;
+}
+.contrainer-food{
+    border: 2px solid;
+    padding: 300px;
+    width: 15em;
+    height: 5em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contrainer-food-box{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-food-info-box{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
